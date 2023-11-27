@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Back End Assessment</title>
+  </head>
+  <body class="container">
+    <button id="complimentButton">Get a compliment</button>
+    <button id="fortuneButton">What is my fortune today?</button>
+    <br />
+    <br />
+    <form id="weather">
+      What is the weather today?
+      <br />
+      Enter your zipcode:
+      <input type="text" id="zipInput" />
+      <input type="submit" />
+    </form>
+    <br />
+    <br />
+    <form id="passwordLocker">
+      Password Locker:
+      <br />
+      <br />
+      Website
+      <input type="text" id="site" placeholder="paste in URL" />
+      <br />
+      Username
+      <input type="text" id="userName" />
+      <br />
+      Password
+      <input type="text" id="passWord" />
+      <br /><br />
+      KeyCode
+      <input type="text" id="keyCode" />
+      <br />
+      <input type="submit" />
+
+      <button id="keyPass">See Codes</button>
+      <br />
+      Fill in all fields and click submit to enter a new password.
+      <br />
+      Enter keyCode and click see codes to see all your codes.
+    </form>
+    <section id="password-container"></section>
+    <br />
+    <br />
+    Call it! Friend-o
+    <br/>
+    <button id="heads">Heads</button>
+    <button id="tails">Tails</button>
+    <button id="flipReset">Reset Score</button>
+    <br />
+    <br />    
+    <br />
+    <br />
+    <form id="toDoForm">
+      <input type="text" id="toDoField" placeholder="New task here!"/>
+      <input type="submit" id="toDoSubmit"/>
+    </form>
+    <section id="toDo-container"></section>
+  
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
